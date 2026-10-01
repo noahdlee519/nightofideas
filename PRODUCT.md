@@ -28,7 +28,7 @@ Not a lecture series and not an open mic: every talk is an original idea from a 
 
 ## Operating Context
 
-- Application form (Google Form): https://docs.google.com/forms/d/e/1FAIpQLScGrNMrxuiOzP4u6BsiCOv_oVCusdSIO5L7qq1ShakSBKkrEQ/viewform?usp=header
+- Application form (Google Form): https://forms.gle/MM1W7VJADfQCKHtf8
 - Applications are open to University students and professors from all backgrounds.
 - Cadence: one Night per quarter, six selected student talks, workshop period of several weeks, Night held later in the quarter.
 - No date or venue is set for the current quarter yet; do not show one.
