@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Night of Ideas · University of Chicago</title>
+  <meta name="description" content="Each quarter, six University of Chicago students give lightning talks on an original idea, after weeks of workshopping with our reviewing team. Sixty or more listeners, faculty speakers, and always dinner. Applications are open.">
+  <meta name="theme-color" content="#0a1215">
+  <meta name="color-scheme" content="dark">
+  <link rel="canonical" href="https://nightofideas.dev/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Night of Ideas">
+  <meta property="og:title" content="Night of Ideas · University of Chicago">
+  <meta property="og:description" content="Six students. Six original ideas. One night, with dinner. Applications are open.">
+  <meta property="og:url" content="https://nightofideas.dev/">
+  <meta property="og:image" content="https://nightofideas.dev/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="The Night of Ideas wordmark, with a moon for the O, over Henry Ossawa Tanner's nocturne of a rooftop conversation.">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preload" href="/assets/fonts/bodoni-moda.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/old-standard-tt.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" type="image/avif" href="/assets/art/nicodemus-1600.avif"
+        imagesrcset="/assets/art/nicodemus-960.avif 960w, /assets/art/nicodemus-1600.avif 1600w, /assets/art/nicodemus-2400.avif 2400w"
+        imagesizes="100vw">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script>
+    (function (d) {
+      d.classList.replace('no-js', 'js');
+      if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) d.classList.add('motion');
+    })(document.documentElement);
+  </script>
+  <script src="/assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="masthead" data-masthead>
+    <a class="mark" href="#top" aria-label="Night of Ideas, back to top">
+      <svg class="mark__moon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+        <circle class="mark__dark" cx="16" cy="16" r="13"/>
+        <path class="mark__lit" data-nav-moon d="M16 3 A13 13 0 0 1 16 29 A5 13 0 0 1 16 3 Z"/>
+        <circle class="mark__rim" cx="16" cy="16" r="13"/>
+      </svg>
+      <span class="mark__word">Night of Ideas</span>
+    </a>
+    <nav class="masthead__nav" aria-label="Primary">
+      <a href="#hang">Past talks</a>
+      <a class="masthead__how" href="#reglement">How it works</a>
+      <a class="masthead__apply" href="https://docs.google.com/forms/d/e/1FAIpQLScGrNMrxuiOzP4u6BsiCOv_oVCusdSIO5L7qq1ShakSBKkrEQ/viewform?usp=header" target="_blank" rel="noopener">Apply<span class="visually-hidden"> to present (opens the application form in a new tab)</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- I. The nocturne -->
+    <section class="nocturne" id="top" aria-labelledby="title">
+      <div class="nocturne__painting" aria-hidden="true">
+        <picture>
+          <source type="image/avif" srcset="/assets/art/nicodemus-960.avif 960w, /assets/art/nicodemus-1600.avif 1600w, /assets/art/nicodemus-2400.avif 2400w" sizes="100vw">
+          <source type="image/webp" srcset="/assets/art/nicodemus-960.webp 960w, /assets/art/nicodemus-1600.webp 1600w, /assets/art/nicodemus-2400.webp 2400w" sizes="100vw">
+          <img src="/assets/art/nicodemus-1600.jpg" alt="" width="1600" height="1400" fetchpriority="high" decoding="async">
+        </picture>
+      </div>
+      <div class="nocturne__veil" aria-hidden="true"></div>
+
+      <div class="nocturne__inner">
+        <h1 class="lockup" id="title">
+          <span class="visually-hidden">Night of Ideas</span>
+          <span class="lockup__line lockup__night" aria-hidden="true">Night</span>
+          <span class="lockup__line lockup__of" aria-hidden="true"><svg class="lockup__moon" viewBox="0 0 200 200" focusable="false">
+              <defs>
+                <clipPath id="moonDisc"><circle cx="100" cy="100" r="96"/></clipPath>
+                <filter id="moonWarm" color-interpolation-filters="sRGB">
+                  <feColorMatrix values="0.44 0.44 0.44 0 0.06  0.4 0.4 0.4 0 0.045  0.3 0.3 0.3 0 0.01  0 0 0 1 0"/>
+                </filter>
+                <filter id="moonEarthshine" color-interpolation-filters="sRGB">
+                  <feColorMatrix values="0.05 0.05 0.05 0 0.018  0.06 0.06 0.06 0 0.03  0.065 0.065 0.065 0 0.035  0 0 0 1 0"/>
+                </filter>
+                <filter id="moonSoft" x="-10%" y="-10%" width="120%" height="120%">
+                  <feGaussianBlur stdDeviation="2.6"/>
+                </filter>
+                <mask id="moonLit" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+                  <path data-hero-moon fill="#fff" filter="url(#moonSoft)" d="M100 4 A96 96 0 0 1 100 196 A51.4 96 0 0 1 100 4 Z"/>
+                </mask>
+              </defs>
+              <g clip-path="url(#moonDisc)">
+                <image href="/assets/art/moon-400.webp" x="4" y="4" width="192" height="192" filter="url(#moonEarthshine)"/>
+                <image href="/assets/art/moon-400.webp" x="4" y="4" width="192" height="192" filter="url(#moonWarm)" mask="url(#moonLit)"/>
+              </g>
+              <circle cx="100" cy="100" r="95.5" fill="none" stroke="#e9d49b" stroke-opacity=".22" stroke-width="1"/>
+            </svg>F</span>
+          <span class="lockup__line lockup__ideas" aria-hidden="true">Ideas</span>
+        </h1>
+
+        <p class="livret-line">Being a catalogue of original works of argument &amp; speculation by living members of the University of&nbsp;Chicago, presented by&nbsp;night.</p>
+
+        <p class="offer">Every quarter, six students give lightning talks on an original idea, philosophical or otherwise, after weeks of workshopping with our reviewing team. Sixty or more people come to listen. Dinner is always&nbsp;served.</p>
+
+        <div class="actions">
+          <a class="btn-gilt" href="https://docs.google.com/forms/d/e/1FAIpQLScGrNMrxuiOzP4u6BsiCOv_oVCusdSIO5L7qq1ShakSBKkrEQ/viewform?usp=header" target="_blank" rel="noopener">
+            <span class="btn-gilt__label">Apply to present</span>
+            <svg class="btn-gilt__icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M4.5 11.5 11.5 4.5M6 4.5h5.5V10"/></svg>
+            <span class="visually-hidden">(opens the application form in a new tab)</span>
+          </a>
+          <a class="link-quiet" href="#hang">Walk the past talks</a>
+        </div>
+      </div>
+
+      <p class="plate-note nocturne__note">Henry Ossawa Tanner, <i>Nicodemus Visiting Jesus</i>, 1899</p>
+    </section>
+
+    <!-- II. The hang: past talks -->
+    <section class="hang" id="hang" aria-labelledby="hang-title" data-hang>
+      <header class="hang__head">
+        <h2 class="section-title" id="hang-title">Past talks</h2>
+        <p class="section-lede">Five works from recent Nights, hung frame to frame. Drag the wall, use the arrows, or choose from the catalogue below. Each frame opens its&nbsp;slides.</p>
+      </header>
+
+      <div class="hang__viewport" data-hang-viewport>
+        <ul class="hang__wall" data-hang-wall>
+          <li class="work" data-work>
+            <div class="work__hanger">
+              <svg class="work__cord" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M50 0 10 100M50 0 90 100"/></svg>
+              <a class="frame frame--gilt" href="https://docs.google.com/presentation/d/1SS0yWVlosdCCcnpw1D09NTxr96qNDYa3H1WAOxFqE1Y/edit?usp=sharing" target="_blank" rel="noopener" aria-label="Open the slides for Meditations on Meditations on Moloch, by Reilly Pryma (new tab)">
+                <span class="frame__slip">
+                  <picture>
+                    <source type="image/avif" srcset="/assets/talks/moloch-800.avif 800w, /assets/talks/moloch-1600.avif 1600w" sizes="(min-width: 900px) 760px, 80vw">
+                    <source type="image/webp" srcset="/assets/talks/moloch-800.webp 800w, /assets/talks/moloch-1600.webp 1600w" sizes="(min-width: 900px) 760px, 80vw">
+                    <img src="/assets/talks/moloch-1600.jpg" alt="Title slide: Meditations on Meditations on Moloch, by Reilly Pryma" width="1600" height="900" loading="lazy" decoding="async">
+                  </picture>
+                  <span class="frame__glare" aria-hidden="true"></span>
+                </span>
+              </a>
+            </div>
+          </li>
+          <li class="work" data-work>
+            <div class="work__hanger">
+              <svg class="work__cord" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M50 0 10 100M50 0 90 100"/></svg>
+              <a class="frame frame--ebony" href="https://docs.google.com/presentation/d/1Iz9mKYSu8uoheLjNLzFzfTCSYpkyISvw/edit?usp=sharing&amp;ouid=102077671114503182265&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener" aria-label="Open the slides for Relational Space(s): Thinking with Bubbles, by Violeta Lopez Molina (new tab)">
+                <span class="frame__slip">
+                  <picture>
+                    <source type="image/avif" srcset="/assets/talks/bubbles-800.avif 800w, /assets/talks/bubbles-1600.avif 1600w" sizes="(min-width: 900px) 760px, 80vw">
+                    <source type="image/webp" srcset="/assets/talks/bubbles-800.webp 800w, /assets/talks/bubbles-1600.webp 1600w" sizes="(min-width: 900px) 760px, 80vw">
+                    <img src="/assets/talks/bubbles-1600.jpg" alt="Title slide: Relational Space(s): Thinking with Bubbles, by Violeta Lopez Molina, beside Manet's painting of a boy blowing bubbles" width="1600" height="900" loading="lazy" decoding="async">
+                  </picture>
+                  <span class="frame__glare" aria-hidden="true"></span>
+                </span>
+              </a>
+            </div>
+          </li>
+          <li class="work" data-work>
+            <div class="work__hanger">
+              <svg class="work__cord" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M50 0 10 100M50 0 90 100"/></svg>
+              <a class="frame frame--wide" href="https://docs.google.com/presentation/d/13Kh0zhUCs1kIHJUQSlHZTBn3w5zzzy_K2cqirZG8eKI/edit?usp=sharing" target="_blank" rel="noopener" aria-label="Open the slides for Being After God, by Cece Rodriguez (new tab)">
+                <span class="frame__slip">
+                  <picture>
+                    <source type="image/avif" srcset="/assets/talks/god-800.avif 800w, /assets/talks/god-1600.avif 1600w" sizes="(min-width: 900px) 760px, 80vw">
+                    <source type="image/webp" srcset="/assets/talks/god-800.webp 800w, /assets/talks/god-1600.webp 1600w" sizes="(min-width: 900px) 760px, 80vw">
+                    <img src="/assets/talks/god-1600.jpg" alt="Title slide: Being After God, The Nihilism Lecture, with drawn bees and flowers" width="1600" height="900" loading="lazy" decoding="async">
+                  </picture>
+                  <span class="frame__glare" aria-hidden="true"></span>
+                </span>
+              </a>
+            </div>
+          </li>
+          <li class="work" data-work>
+            <div class="work__hanger">
+              <svg class="work__cord" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M50 0 10 100M50 0 90 100"/></svg>
+              <a class="frame frame--gilt" href="https://docs.google.com/presentation/d/1JxJyHOG362gN1ASZHkTMVCdQNswj5mI6/edit?usp=sharing&amp;ouid=102077671114503182265&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener" aria-label="Open the slides for Frats and Butlerian Brotherhood, by Shawn Quek (new tab)">
+                <span class="frame__slip">
+                  <picture>
+                    <source type="image/avif" srcset="/assets/talks/frats-800.avif 800w, /assets/talks/frats-1600.avif 1600w" sizes="(min-width: 900px) 760px, 80vw">
+                    <source type="image/webp" srcset="/assets/talks/frats-800.webp 800w, /assets/talks/frats-1600.webp 1600w" sizes="(min-width: 900px) 760px, 80vw">
+                    <img src="/assets/talks/frats-1600.jpg" alt="Title slide: Frats and Butlerian Brotherhood, by Shawn Quek" width="1600" height="900" loading="lazy" decoding="async">
+                  </picture>
+                  <span class="frame__glare" aria-hidden="true"></span>
+                </span>
+              </a>
+            </div>
+          </li>
+          <li class="work" data-work>
+            <div class="work__hanger">
+              <svg class="work__cord" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M50 0 10 100M50 0 90 100"/></svg>
+              <a class="frame frame--ebony" href="https://docs.google.com/presentation/d/1rr6byTItzAnvl8Jy5PTz5A5KCxLAaAU_WzdNoThCmtY/edit?usp=sharing" target="_blank" rel="noopener" aria-label="Open the slides for Minecraft Democracy, by Noah Lee (new tab)">
+                <span class="frame__slip">
+                  <picture>
+                    <source type="image/avif" srcset="/assets/talks/minecraft-800.avif 800w, /assets/talks/minecraft-1600.avif 1600w" sizes="(min-width: 900px) 760px, 80vw">
+                    <source type="image/webp" srcset="/assets/talks/minecraft-800.webp 800w, /assets/talks/minecraft-1600.webp 1600w" sizes="(min-width: 900px) 760px, 80vw">
+                    <img src="/assets/talks/minecraft-1600.jpg" alt="Title slide: Minecraft Democracy, by Noah Lee, with a map of the Confederation of Garxijos" width="1600" height="900" loading="lazy" decoding="async">
+                  </picture>
+                  <span class="frame__glare" aria-hidden="true"></span>
+                </span>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="hang__label">
+        <button class="hang__step hang__step--prev" type="button" data-hang-prev aria-label="Previous talk" hidden>
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.5 5.5 8 12l6.5 6.5"/></svg>
+        </button>
+
+        <div class="cartels" data-cartels>
+          <article class="cartel" data-cartel>
+            <p class="cartel__name"><span class="cartel__no">1.</span> <span class="caps">Pryma</span> (Reilly)</p>
+            <h3 class="cartel__title">Meditations on Meditations on Moloch</h3>
+            <p class="cartel__sub">Or, How I Learned to Stop Worrying and Love the Madness</p>
+            <p class="cartel__desc">A reply to Scott Alexander’s essay on Moloch, the god of races to the bottom, by way of Ginsberg’s <i>Howl</i>, Socrates and Wittgenstein, and ending on Nietzsche’s charge that the will to a system is a lack of honesty.</p>
+            <a class="cartel__link" href="https://docs.google.com/presentation/d/1SS0yWVlosdCCcnpw1D09NTxr96qNDYa3H1WAOxFqE1Y/edit?usp=sharing" target="_blank" rel="noopener">View the slides<span class="visually-hidden"> for Meditations on Meditations on Moloch (new tab)</span></a>
+          </article>
+          <article class="cartel" data-cartel>
+            <p class="cartel__name"><span class="cartel__no">2.</span> <span class="caps">Lopez Molina</span> (Violeta)</p>
+            <h3 class="cartel__title">Relational Space(s): Thinking with Bubbles</h3>
+            <p class="cartel__desc">Against the solitary Cartesian thinker, and the self-care influencer who may be his heir, a case from Sloterdijk’s <i>Spheres</i>: subjectivity as two or more parties open to each other.</p>
+            <a class="cartel__link" href="https://docs.google.com/presentation/d/1Iz9mKYSu8uoheLjNLzFzfTCSYpkyISvw/edit?usp=sharing&amp;ouid=102077671114503182265&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener">View the slides<span class="visually-hidden"> for Relational Space(s): Thinking with Bubbles (new tab)</span></a>
+          </article>
+          <article class="cartel" data-cartel>
+            <p class="cartel__name"><span class="cartel__no">3.</span> <span class="caps">Rodriguez</span> (Cece)</p>
+            <h3 class="cartel__title">Being After God</h3>
+            <p class="cartel__sub">The Nihilism Lecture</p>
+            <p class="cartel__desc">Heidegger’s history of Being read as a history of nihilism: from Plato’s two worlds, through Nietzsche and the death of God, to what there is left to do.</p>
+            <a class="cartel__link" href="https://docs.google.com/presentation/d/13Kh0zhUCs1kIHJUQSlHZTBn3w5zzzy_K2cqirZG8eKI/edit?usp=sharing" target="_blank" rel="noopener">View the slides<span class="visually-hidden"> for Being After God (new tab)</span></a>
+          </article>
+          <article class="cartel" data-cartel>
+            <p class="cartel__name"><span class="cartel__no">4.</span> <span class="caps">Quek</span> (Shawn)</p>
+            <h3 class="cartel__title">Frats &amp; Butlerian Brotherhood</h3>
+            <p class="cartel__desc">Fraternal community and masculine performativity, read through Judith Butler, followed by the offended, the critics and the validated, and a puzzle left over.</p>
+            <a class="cartel__link" href="https://docs.google.com/presentation/d/1JxJyHOG362gN1ASZHkTMVCdQNswj5mI6/edit?usp=sharing&amp;ouid=102077671114503182265&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener">View the slides<span class="visually-hidden"> for Frats and Butlerian Brotherhood (new tab)</span></a>
+          </article>
+          <article class="cartel" data-cartel>
+            <p class="cartel__name"><span class="cartel__no">5.</span> <span class="caps">Lee</span> (Noah)</p>
+            <h3 class="cartel__title">Minecraft Democracy</h3>
+            <p class="cartel__desc">“I started the largest direct democracy in Minecraft history.” Its rise, coup, civil war and collapse, and what they suggest about the state of nature and hyper-online politics.</p>
+            <a class="cartel__link" href="https://docs.google.com/presentation/d/1rr6byTItzAnvl8Jy5PTz5A5KCxLAaAU_WzdNoThCmtY/edit?usp=sharing" target="_blank" rel="noopener">View the slides<span class="visually-hidden"> for Minecraft Democracy (new tab)</span></a>
+          </article>
+        </div>
+
+        <button class="hang__step hang__step--next" type="button" data-hang-next aria-label="Next talk" hidden>
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9.5 5.5 16 12l-6.5 6.5"/></svg>
+        </button>
+      </div>
+
+      <div class="hang__foot">
+        <nav class="catalogue" aria-label="Catalogue of past talks" data-catalogue hidden>
+          <h3 class="catalogue__title">Catalogue</h3>
+          <ol class="catalogue__list">
+            <li><button type="button" data-goto="0"><span class="catalogue__no">1.</span> <span class="caps">Pryma</span> (Reilly). <i>Meditations on Meditations on Moloch</i></button></li>
+            <li><button type="button" data-goto="1"><span class="catalogue__no">2.</span> <span class="caps">Lopez Molina</span> (Violeta). <i>Relational Space(s): Thinking with Bubbles</i></button></li>
+            <li><button type="button" data-goto="2"><span class="catalogue__no">3.</span> <span class="caps">Rodriguez</span> (Cece). <i>Being After God</i></button></li>
+            <li><button type="button" data-goto="3"><span class="catalogue__no">4.</span> <span class="caps">Quek</span> (Shawn). <i>Frats &amp; Butlerian Brotherhood</i></button></li>
+            <li><button type="button" data-goto="4"><span class="catalogue__no">5.</span> <span class="caps">Lee</span> (Noah). <i>Minecraft Democracy</i></button></li>
+          </ol>
+        </nav>
+
+        <p class="hors-concours"><span class="hors-concours__term">Hors concours.</span> Alongside the six, a Night often features a faculty speaker. Past faculty speakers include Agnes Callard of the Department of&nbsp;Philosophy.</p>
+      </div>
+    </section>
+
+    <!-- III. The règlement: how a Night works -->
+    <section class="reglement" id="reglement" aria-labelledby="reglement-title">
+      <figure class="reglement__plate" data-reveal="plate">
+        <div class="frame frame--gilt frame--plate">
+          <span class="frame__slip">
+            <picture>
+              <source type="image/avif" srcset="/assets/art/orrery-960.avif 960w, /assets/art/orrery-1600.avif 1600w, /assets/art/orrery-2400.avif 2400w" sizes="(min-width: 1000px) 44vw, 90vw">
+              <source type="image/webp" srcset="/assets/art/orrery-960.webp 960w, /assets/art/orrery-1600.webp 1600w, /assets/art/orrery-2400.webp 2400w" sizes="(min-width: 1000px) 44vw, 90vw">
+              <img src="/assets/art/orrery-1600.jpg" alt="Joseph Wright of Derby's painting of a philosopher lecturing on an orrery by lamplight, his listeners' faces lit around the brass model of the planets." width="1600" height="1123" loading="lazy" decoding="async">
+            </picture>
+          </span>
+        </div>
+        <figcaption class="plate-note">Joseph Wright of Derby, <i>A Philosopher Lecturing on the Orrery</i>, c.&nbsp;1766</figcaption>
+      </figure>
+
+      <div class="reglement__text">
+        <h2 class="section-title" id="reglement-title">How a Night comes together</h2>
+        <p class="section-lede">The rules of the Salon, more or less. One quarter, one jury, six talks, and a long table at the end of&nbsp;it.</p>
+
+        <ol class="articles">
+          <li class="article" data-reveal>
+            <h3 class="article__head"><span class="article__no">Article I.</span> Anyone may submit.</h3>
+            <p>Students and professors from every department apply with an original idea, philosophical or otherwise. No philosophy background is&nbsp;required.</p>
+          </li>
+          <li class="article" data-reveal>
+            <h3 class="article__head"><span class="article__no">Article II.</span> The jury chooses six.</h3>
+            <p>Each quarter the host reads the applications and selects six students to&nbsp;present.</p>
+          </li>
+          <li class="article" data-reveal>
+            <h3 class="article__head"><span class="article__no">Article III.</span> The workshop.</h3>
+            <p>For several weeks, our reviewing team works with each presenter to workshop the idea and edit the talk until it is ready for the&nbsp;Night.</p>
+          </li>
+          <li class="article" data-reveal>
+            <h3 class="article__head"><span class="article__no">Article IV.</span> The Night.</h3>
+            <p>Later in the quarter, six lightning talks before sixty or more listeners from across the university, often alongside a talk from a faculty guest. Dinner, always.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- IV. The annunciation: apply -->
+    <section class="annunciation" id="apply" aria-labelledby="apply-title">
+      <div class="annunciation__painting" aria-hidden="true">
+        <picture>
+          <source type="image/avif" srcset="/assets/art/annunciation-960.avif 960w, /assets/art/annunciation-1600.avif 1600w, /assets/art/annunciation-2400.avif 2400w" sizes="100vw">
+          <source type="image/webp" srcset="/assets/art/annunciation-960.webp 960w, /assets/art/annunciation-1600.webp 1600w, /assets/art/annunciation-2400.webp 2400w" sizes="100vw">
+          <img src="/assets/art/annunciation-1600.jpg" alt="" width="1600" height="1293" loading="lazy" decoding="async">
+        </picture>
+      </div>
+      <div class="annunciation__veil" aria-hidden="true"></div>
+
+      <div class="annunciation__inner" data-reveal>
+        <h2 class="annunciation__title" id="apply-title">Have an idea you can’t put&nbsp;down?</h2>
+        <p class="annunciation__body">Applications for this quarter are open to students and professors from every department. Send us the idea. If you’re selected, we’ll spend the weeks before the Night shaping it with&nbsp;you.</p>
+        <a class="btn-gilt btn-gilt--large" href="https://docs.google.com/forms/d/e/1FAIpQLScGrNMrxuiOzP4u6BsiCOv_oVCusdSIO5L7qq1ShakSBKkrEQ/viewform?usp=header" target="_blank" rel="noopener">
+          <span class="btn-gilt__label">Apply to present</span>
+          <svg class="btn-gilt__icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M4.5 11.5 11.5 4.5M6 4.5h5.5V10"/></svg>
+          <span class="visually-hidden">(opens the application form in a new tab)</span>
+        </a>
+        <p class="annunciation__aside">Not presenting? Come listen. This quarter’s date will be posted here, and there’s always&nbsp;dinner.</p>
+      </div>
+
+      <p class="plate-note annunciation__note">Henry Ossawa Tanner, <i>The Annunciation</i>, 1898</p>
+    </section>
+  </main>
+
+  <footer class="colophon">
+    <div class="colophon__inner">
+      <p class="colophon__mark">
+        <svg class="colophon__moon" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+          <defs>
+            <clipPath id="footMoonDisc"><circle cx="100" cy="100" r="96"/></clipPath>
+            <filter id="footMoonWarm" color-interpolation-filters="sRGB">
+              <feColorMatrix values="0.44 0.44 0.44 0 0.06  0.4 0.4 0.4 0 0.045  0.3 0.3 0.3 0 0.01  0 0 0 1 0"/>
+            </filter>
+          </defs>
+          <image href="/assets/art/moon-400.webp" x="4" y="4" width="192" height="192" clip-path="url(#footMoonDisc)" filter="url(#footMoonWarm)"/>
+          <circle cx="100" cy="100" r="95.5" fill="none" stroke="#e9d49b" stroke-opacity=".3" stroke-width="2"/>
+        </svg>
+        <span>Night of Ideas</span>
+      </p>
+      <p class="colophon__about">A student club at the University of Chicago, affiliated with the Department of&nbsp;Philosophy.</p>
+      <ul class="colophon__links">
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScGrNMrxuiOzP4u6BsiCOv_oVCusdSIO5L7qq1ShakSBKkrEQ/viewform?usp=header" target="_blank" rel="noopener">Apply to present<span class="visually-hidden"> (new tab)</span></a></li>
+        <li><a href="#hang">Past talks</a></li>
+        <li><a href="#reglement">How it works</a></li>
+      </ul>
+      <p class="colophon__credits">Paintings by Henry Ossawa Tanner and Joseph Wright of Derby, in the public domain, via Wikimedia Commons. Frames after a Louis XIV-style frame at The Metropolitan Museum of Art (CC0). The moon is NASA’s Lunar Reconnaissance Orbiter. Slides by their speakers. Set in Bodoni Moda and Old Standard&nbsp;TT.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,466 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-01T01:37:23Z",
+  "title": "Design System: Night of Ideas",
+  "extensions": {
+    "colorMeta": {
+      "night": {
+        "role": "neutral",
+        "displayName": "Nocturne",
+        "canonical": "#0a1215",
+        "oklch": "oklch(17.6% 0.014 223.1)",
+        "tonalRamp": [
+          "#090c0d",
+          "#212628",
+          "#3b4447",
+          "#596367",
+          "#7a8488",
+          "#9fa6a9",
+          "#c6cacc",
+          "#edefef"
+        ]
+      },
+      "moonlight": {
+        "role": "neutral",
+        "displayName": "Moonlight",
+        "canonical": "#ece6d6",
+        "oklch": "oklch(92.5% 0.022 89.8)",
+        "tonalRamp": [
+          "#0c0b08",
+          "#28251d",
+          "#464236",
+          "#666153",
+          "#878274",
+          "#a9a59b",
+          "#cbc9c3",
+          "#efeeec"
+        ]
+      },
+      "moonlight-dim": {
+        "role": "neutral",
+        "displayName": "Moonlight Dim",
+        "canonical": "#bfb8a6",
+        "oklch": "oklch(78.3% 0.026 89.2)",
+        "tonalRamp": [
+          "#0d0b07",
+          "#28251c",
+          "#474234",
+          "#676151",
+          "#888272",
+          "#a9a599",
+          "#ccc9c2",
+          "#efeeec"
+        ]
+      },
+      "moonlight-faint": {
+        "role": "neutral",
+        "displayName": "Moonlight Faint",
+        "canonical": "#948e7f",
+        "oklch": "oklch(64.8% 0.023 88.8)",
+        "tonalRamp": [
+          "#0d0b07",
+          "#28251d",
+          "#464236",
+          "#666153",
+          "#878274",
+          "#a9a59a",
+          "#cbc9c3",
+          "#efeeec"
+        ]
+      },
+      "gilt": {
+        "role": "primary",
+        "displayName": "Burnished Gilt",
+        "canonical": "#c9a55a",
+        "oklch": "oklch(73.9% 0.103 84.2)",
+        "tonalRamp": [
+          "#120900",
+          "#342100",
+          "#593c00",
+          "#7c5b00",
+          "#9e7d37",
+          "#b9a273",
+          "#d6c8ac",
+          "#f2eee5"
+        ]
+      },
+      "gilt-highlight": {
+        "role": "primary",
+        "displayName": "Gilt Highlight",
+        "canonical": "#f0d99a",
+        "oklch": "oklch(89.0% 0.084 90.3)",
+        "tonalRamp": [
+          "#100a00",
+          "#2f2300",
+          "#524001",
+          "#745f20",
+          "#958048",
+          "#b3a47d",
+          "#d1c9b1",
+          "#f1eee7"
+        ]
+      },
+      "gilt-shadow": {
+        "role": "primary",
+        "displayName": "Gilt Shadow",
+        "canonical": "#6d4e1c",
+        "oklch": "oklch(44.7% 0.078 76.1)",
+        "tonalRamp": [
+          "#120901",
+          "#332105",
+          "#573c0e",
+          "#7a5b2a",
+          "#9c7c4f",
+          "#b8a181",
+          "#d5c7b4",
+          "#f2eee8"
+        ]
+      },
+      "gilt-plate": {
+        "role": "primary",
+        "displayName": "Gilt Plate",
+        "canonical": "#d4b36b",
+        "oklch": "oklch(78.0% 0.099 85.5)",
+        "tonalRamp": [
+          "#120a00",
+          "#332200",
+          "#573d00",
+          "#7a5c06",
+          "#9b7e3b",
+          "#b8a275",
+          "#d5c8ad",
+          "#f2eee6"
+        ]
+      },
+      "gilt-plate-lit": {
+        "role": "primary",
+        "displayName": "Gilt Plate, Lit",
+        "canonical": "#e2c682",
+        "oklch": "oklch(83.5% 0.092 88.0)",
+        "tonalRamp": [
+          "#110a00",
+          "#312300",
+          "#543e00",
+          "#775d15",
+          "#987f41",
+          "#b5a379",
+          "#d3c8af",
+          "#f1eee6"
+        ]
+      },
+      "gilt-rim": {
+        "role": "primary",
+        "displayName": "Gilt Rim",
+        "canonical": "#5d4213",
+        "oklch": "oklch(40.0% 0.072 77.4)",
+        "tonalRamp": [
+          "#110a01",
+          "#312208",
+          "#553d14",
+          "#785c2f",
+          "#997d53",
+          "#b6a284",
+          "#d4c7b5",
+          "#f2eee8"
+        ]
+      },
+      "salon-claret": {
+        "role": "secondary",
+        "displayName": "Salon Claret",
+        "canonical": "#3e0f15",
+        "oklch": "oklch(25.1% 0.073 16.8)",
+        "tonalRamp": [
+          "#150707",
+          "#381b1d",
+          "#603235",
+          "#865052",
+          "#a87274",
+          "#c2999a",
+          "#dbc2c2",
+          "#f4ecec"
+        ]
+      },
+      "claret-text": {
+        "role": "neutral",
+        "displayName": "Claret Text",
+        "canonical": "#f1e2d2",
+        "oklch": "oklch(92.0% 0.027 69.3)",
+        "tonalRamp": [
+          "#0e0a07",
+          "#2b241c",
+          "#4b4034",
+          "#6c5f51",
+          "#8d8072",
+          "#ada399",
+          "#cec8c2",
+          "#f0eeec"
+        ]
+      },
+      "claret-text-dim": {
+        "role": "neutral",
+        "displayName": "Claret Text Dim",
+        "canonical": "#d8c0ae",
+        "oklch": "oklch(82.3% 0.037 59.1)",
+        "tonalRamp": [
+          "#0f0a06",
+          "#2e221a",
+          "#503e30",
+          "#715c4c",
+          "#937e6e",
+          "#b1a296",
+          "#d1c7c0",
+          "#f1eeec"
+        ]
+      },
+      "annunciation-umber": {
+        "role": "secondary",
+        "displayName": "Annunciation Umber",
+        "canonical": "#1a0f04",
+        "oklch": "oklch(18.0% 0.029 67.9)",
+        "tonalRamp": [
+          "#0e0a07",
+          "#2b231c",
+          "#4c4033",
+          "#6d5e50",
+          "#8e8071",
+          "#ada398",
+          "#cec8c1",
+          "#f0eeec"
+        ]
+      },
+      "umber-text": {
+        "role": "neutral",
+        "displayName": "Umber Text",
+        "canonical": "#f6ead0",
+        "oklch": "oklch(94.0% 0.037 86.2)",
+        "tonalRamp": [
+          "#0e0b05",
+          "#2a2418",
+          "#4a412e",
+          "#6a6049",
+          "#8c816b",
+          "#aca494",
+          "#cdc9bf",
+          "#f0eeeb"
+        ]
+      },
+      "umber-text-dim": {
+        "role": "neutral",
+        "displayName": "Umber Text Dim",
+        "canonical": "#e0cba4",
+        "oklch": "oklch(85.0% 0.057 82.9)",
+        "tonalRamp": [
+          "#0f0a03",
+          "#2e230f",
+          "#4f3f20",
+          "#715e3b",
+          "#92805d",
+          "#b1a38b",
+          "#d0c8b9",
+          "#f1eee9"
+        ]
+      },
+      "linen-liner": {
+        "role": "neutral",
+        "displayName": "Linen Liner",
+        "canonical": "#d8ccb1",
+        "oklch": "oklch(84.8% 0.039 86.9)",
+        "tonalRamp": [
+          "#0e0b05",
+          "#2a2417",
+          "#4a412c",
+          "#6b6048",
+          "#8c816a",
+          "#aca493",
+          "#cdc9be",
+          "#f0eeeb"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "lockup": {
+        "displayName": "Lockup",
+        "purpose": "The NIGHT / (moon)F / IDEAS mark, first viewport and link preview only."
+      },
+      "display": {
+        "displayName": "Display",
+        "purpose": "Section titles."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Italic title of a work on its cartel."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Règlement article headings with run-in numbers."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading text in Old Standard with old-style figures."
+      },
+      "livret": {
+        "displayName": "Livret",
+        "purpose": "Italic catalogue lines, subtitles and asides."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Tracked capitals for navigation, buttons and small headings."
+      }
+    },
+    "shadows": [
+      {
+        "name": "wall-cast",
+        "value": "0 34px 44px -26px rgba(0,0,0,.9), 0 80px 110px -60px rgba(0,0,0,.75)",
+        "purpose": "A framed work cast on the wall by the lamp above."
+      },
+      {
+        "name": "molding-lip",
+        "value": "inset 0 12px 16px -10px rgba(20,12,2,.55)",
+        "purpose": "The upper molding shading the top of a framed work."
+      },
+      {
+        "name": "contact",
+        "value": "0 16px 28px -16px rgba(0,0,0,.85)",
+        "purpose": "The gilt button and picture rail."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "UI responses: hovers, presses, cartel reveal, reveals on scroll."
+      },
+      {
+        "name": "ease-slow",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The opening: painting settle (2.6s), lockup lines from blur (1.5s, 170ms stagger), plate unveil (1.6s)."
+      },
+      {
+        "name": "moon-wax",
+        "value": "2300ms ease-out-cubic, phase 0.03 to 0.34",
+        "purpose": "The hero moon waxing into its O after a 350ms delay."
+      },
+      {
+        "name": "wall-spring",
+        "value": "stiffness 150, damping ratio 0.9; sway stiffness 80, damping 6.5, max 2.6deg",
+        "purpose": "The gallery wall and the swing of frames on their cords."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "719px"
+      },
+      {
+        "name": "tablet",
+        "value": "899px"
+      },
+      {
+        "name": "reglement",
+        "value": "999px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Gilt Button",
+      "kind": "button",
+      "refersTo": "button-gilt",
+      "description": "The single primary action: apply to present. Flat gilt plate, dark rim, square corners.",
+      "html": "<a class=\"ds-btn-gilt\" href=\"#\">Apply to present <svg viewBox=\"0 0 16 16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"square\" aria-hidden=\"true\"><path d=\"M4.5 11.5 11.5 4.5M6 4.5h5.5V10\"/></svg></a>",
+      "css": ".ds-btn-gilt{display:inline-flex;align-items:center;gap:.75em;padding:1.1em 1.55em 1.05em;font:600 .875rem/1 \"Bodoni Moda\", \"Bodoni 72\", Didot, serif;font-variation-settings:\"opsz\" 8;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;color:#1d1405;background:#d4b36b;border:1px solid #5d4213;border-radius:0;box-shadow:inset 0 1px 0 rgba(255,248,222,.55),0 16px 28px -16px rgba(0,0,0,.85);transition:transform .16s cubic-bezier(.23,1,.32,1),background-color .25s ease}.ds-btn-gilt:hover{background:#e2c682}.ds-btn-gilt:hover svg{transform:translate(2px,-2px)}.ds-btn-gilt svg{transition:transform .25s cubic-bezier(.23,1,.32,1)}.ds-btn-gilt:active{transform:scale(.97)}.ds-btn-gilt:focus-visible{outline:2px solid #ece6d6;outline-offset:4px}"
+    },
+    {
+      "name": "Quiet Link",
+      "kind": "button",
+      "refersTo": "link-quiet",
+      "description": "Secondary action beside the gilt button, on night.",
+      "html": "<a class=\"ds-link-quiet\" href=\"#\">Walk the past talks</a>",
+      "css": ".ds-link-quiet{font:600 .875rem/1.6 \"Bodoni Moda\", \"Bodoni 72\", Didot, serif;font-variation-settings:\"opsz\" 8;letter-spacing:.16em;text-transform:uppercase;color:#ece6d6;text-decoration:underline;text-decoration-color:rgba(201,165,90,.55);text-decoration-thickness:1px;text-underline-offset:.55em;transition:color .2s ease,text-decoration-color .2s ease;background:#0a1215;padding:8px}.ds-link-quiet:hover{color:#f0d99a;text-decoration-color:#f0d99a}.ds-link-quiet:focus-visible{outline:2px solid #f0d99a;outline-offset:4px}"
+    },
+    {
+      "name": "Masthead",
+      "kind": "nav",
+      "refersTo": "nav-apply",
+      "description": "Fixed 68px masthead: moon mark, tracked wordmark, labels, and a gilt-outlined Apply.",
+      "html": "<nav class=\"ds-mast\"><span class=\"ds-mast__mark\"><svg viewBox=\"0 0 32 32\" width=\"24\" height=\"24\" aria-hidden=\"true\"><circle cx=\"16\" cy=\"16\" r=\"13\" fill=\"#172529\"/><path d=\"M16 3 A13 13 0 0 1 16 29 A7 13 0 0 1 16 3 Z\" fill=\"#ecdcae\"/><circle cx=\"16\" cy=\"16\" r=\"13\" fill=\"none\" stroke=\"rgba(233,212,155,.4)\"/></svg>Night of Ideas</span><span class=\"ds-mast__links\"><a href=\"#\">Past talks</a><a href=\"#\">How it works</a><a class=\"ds-mast__apply\" href=\"#\">Apply</a></span></nav>",
+      "css": ".ds-mast{display:flex;align-items:center;justify-content:space-between;gap:24px;height:68px;padding:0 32px;background:#0a1215;box-shadow:0 1px 0 rgba(201,165,90,.2)}.ds-mast__mark{display:inline-flex;align-items:center;gap:12px;font:600 .8125rem/1 \"Bodoni Moda\", \"Bodoni 72\", Didot, serif;font-variation-settings:\"opsz\" 8;letter-spacing:.22em;text-transform:uppercase;color:#ece6d6}.ds-mast__links{display:flex;align-items:center;gap:32px}.ds-mast__links a{font:600 .78rem/1 \"Bodoni Moda\", \"Bodoni 72\", Didot, serif;font-variation-settings:\"opsz\" 8;letter-spacing:.17em;text-transform:uppercase;text-decoration:none;color:#ece6d6;transition:color .2s ease}.ds-mast__links a:hover{color:#f0d99a}.ds-mast__links a:focus-visible{outline:2px solid #f0d99a;outline-offset:4px}.ds-mast__links .ds-mast__apply{padding:.85em 1.15em .8em;border:1px solid rgba(201,165,90,.7);color:#f0d99a;transition:background-color .25s ease,color .25s ease}.ds-mast__links .ds-mast__apply:hover{background:#c9a55a;color:#0a1215}"
+    },
+    {
+      "name": "Cartel",
+      "kind": "card",
+      "refersTo": "cartel",
+      "description": "The label of a hung work: catalogue byline, italic title, subtitle, description, slides link. Sits on the claret wall.",
+      "html": "<article class=\"ds-cartel\"><p class=\"ds-cartel__name\"><i>3.</i> <span>RODRIGUEZ</span> (Cece)</p><h3 class=\"ds-cartel__title\">Being After God</h3><p class=\"ds-cartel__sub\">The Nihilism Lecture</p><p class=\"ds-cartel__desc\">Heidegger’s history of Being read as a history of nihilism.</p><a class=\"ds-cartel__link\" href=\"#\">View the slides</a></article>",
+      "css": ".ds-cartel{text-align:center;max-width:40rem;padding:40px 24px;background:#3e0f15;color:#f1e2d2}.ds-cartel__name{margin:0;font:500 .95rem/1.6 \"Bodoni Moda\", \"Bodoni 72\", Didot, serif;font-variation-settings:\"opsz\" 8;letter-spacing:.06em}.ds-cartel__name i{color:#f0d99a}.ds-cartel__name span{font-size:.86em;letter-spacing:.1em}.ds-cartel__title{margin:12px 0 0;font:italic 500 2.4rem/1.08 \"Bodoni Moda\", \"Bodoni 72\", Didot, serif;font-variation-settings:\"opsz\" 22}.ds-cartel__sub{margin:6px 0 0;font:italic 400 1.0625rem/1.5 \"Bodoni Moda\", \"Bodoni 72\", Didot, serif;font-variation-settings:\"opsz\" 20;color:#d8c0ae}.ds-cartel__desc{margin:14px auto 0;max-width:34em;font:400 1.0625rem/1.6 \"Old Standard TT\", Georgia, serif;color:#d8c0ae}.ds-cartel__link{display:inline-block;margin-top:18px;font:600 .8125rem/1.6 \"Bodoni Moda\", \"Bodoni 72\", Didot, serif;font-variation-settings:\"opsz\" 8;letter-spacing:.18em;text-transform:uppercase;color:#f0d99a;text-decoration:underline;text-decoration-color:rgba(240,217,154,.5);text-underline-offset:.6em}.ds-cartel__link:hover{text-decoration-color:#f0d99a}.ds-cartel__link:focus-visible{outline:2px solid #f0d99a;outline-offset:4px}"
+    },
+    {
+      "name": "Gallery Step",
+      "kind": "button",
+      "refersTo": "hang-step",
+      "description": "Round gilt-ringed previous/next control on the claret wall.",
+      "html": "<div class=\"ds-steps\"><button class=\"ds-step\" aria-label=\"Previous talk\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"square\"><path d=\"M14.5 5.5 8 12l6.5 6.5\"/></svg></button><button class=\"ds-step\" aria-label=\"Next talk\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"square\"><path d=\"M9.5 5.5 16 12l-6.5 6.5\"/></svg></button></div>",
+      "css": ".ds-steps{display:flex;gap:16px;padding:24px;background:#3e0f15}.ds-step{width:52px;height:52px;display:grid;place-items:center;padding:0;border-radius:50%;border:1px solid rgba(240,217,154,.55);background:rgba(31,7,10,.35);color:#f0d99a;cursor:pointer;transition:background-color .2s ease,border-color .2s ease,transform .16s cubic-bezier(.23,1,.32,1)}.ds-step:hover{background:rgba(240,217,154,.12);border-color:#f0d99a}.ds-step:active{transform:scale(.95)}.ds-step:focus-visible{outline:2px solid #f0d99a;outline-offset:4px}"
+    },
+    {
+      "name": "Règlement Article",
+      "kind": "custom",
+      "refersTo": "title",
+      "description": "A numbered step of how a Night comes together; the article number runs in on the heading line.",
+      "html": "<div class=\"ds-article\"><h3><i>Article III.</i> The workshop.</h3><p>For several weeks, our reviewing team works with each presenter to workshop the idea and edit the talk.</p></div>",
+      "css": ".ds-article{padding:26px 24px 30px;background:#0a1215;border-top:1px solid rgba(201,165,90,.28);border-bottom:1px solid rgba(201,165,90,.28)}.ds-article h3{margin:0;font:500 2rem/1.15 \"Bodoni Moda\", \"Bodoni 72\", Didot, serif;font-variation-settings:\"opsz\" 18;color:#ece6d6}.ds-article h3 i{font-weight:400;font-variation-settings:\"opsz\" 11;color:#c9a55a;margin-right:.2em}.ds-article p{margin:10px 0 0;max-width:34em;font:400 1.125rem/1.6 \"Old Standard TT\", Georgia, serif;color:#bfb8a6}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Salon at Night",
+    "overview": "Night of Ideas is presented as a juried Salon held after dark, and the site is its livret, the catalogue a visitor carried through the galleries. The ground is Henry Ossawa Tanner's nocturne blue-green, nearly black. Text is moonlight, never pure white. Everything precious is gilt, and gilt is a material, never a gradient: carved frames come from a photograph of a real Louis XIV-style frame, and buttons and the picture rail are honest flat gold with a dark rim. The page moves through rooms: the rooftop nocturne, the claret Salon wall where past talks hang frame to frame on cords, the règlement beside a lamp-lit plate, and the Annunciation's warm room for applying.\n\nImagery is real and credited: public-domain paintings, real title slides from past talks, and a NASA lunar photograph for the moon that stands in for the O in the logo. Typography is a 19th-century Didone (Bodoni Moda) for display and an Old Standard \"modern\" text face for reading. Both are set the way a catalogue is set: SURNAME (Given) bylines, numbered entries, italic titles of works, run-in article numbers.\n\nMotion is lamplight and drift. The name surfaces from blur as the moon waxes into its O. Plates unveil top-down. The gallery wall moves on a spring, and its frames swing slightly on their cords. Every animation has a reduced-motion path that keeps all content visible.",
+    "keyCharacteristics": [
+      "Dark nocturne ground (#0a1215) with moonlit ivory text and gilt as the only accent",
+      "Photographic materials (carved gilt frames, the lunar photograph, the paintings); no faked bevels or stripe textures",
+      "Bodoni Moda at high optical size for the lockup, lower optical sizes as type gets smaller, so hairlines survive on 1x screens",
+      "Square corners everywhere; the only circles are the moon, the rail hooks and the gallery arrows",
+      "Each section is a \"room\" with a full field of colour: night, claret wall, umber Annunciation"
+    ],
+    "rules": [
+      {
+        "name": "The Gilt Is Material Rule",
+        "body": "Gold is either a photograph of real gilding (frames) or a flat fill with a dark rim (button, rail, hook). It is never a multi-stop gradient imitating metal.",
+        "section": "colors"
+      },
+      {
+        "name": "The Rooms Rule",
+        "body": "Colour commits at room scale. A section is night, claret or umber across its full width. Never scatter claret or umber as accents on the night ground.",
+        "section": "colors"
+      },
+      {
+        "name": "The Optical Size Rule",
+        "body": "The smaller the type, the lower the `opsz`. The lockup sits at 60, section titles at 30, cartel titles at 22, article heads at 18 and tracked capitals at 8. High-contrast settings below display size lose their hairlines on 1x screens.",
+        "section": "typography"
+      },
+      {
+        "name": "The Livret Byline Rule",
+        "body": "People are named the way a Salon catalogue names its artists: catalogue number, SURNAME in small caps, given name in parentheses (\"3. RODRIGUEZ (Cece)\"), and the title of the work in italics.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Lamp Rule",
+        "body": "Every highlight and shadow agrees on a single light source above the work. No glows, no coloured halos, and no light from below.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep text on night in the moonlight family (#ece6d6 / #bfb8a6 / #948e7f). Never use pure white.",
+      "**Do** use real, credited imagery: public-domain paintings, speakers' own title slides, photographic gilt and the lunar photograph.",
+      "**Do** lower `opsz` as type gets smaller (lockup 60 → titles 30 → cartel 22 → article heads 18 → labels 8).",
+      "**Do** set people and works in catalogue form: \"No.\" numbering, SURNAME (Given), italic titles.",
+      "**Do** give every motion a reduced-motion path that leaves all content visible."
+    ],
+    "donts": [
+      "**Don't** fake gold with multi-stop gradients, or textures with repeating stripe gradients.",
+      "**Don't** stack small labels or eyebrows above headings. Numbers run in on the heading or byline line.",
+      "**Don't** round corners on buttons, frames or panels.",
+      "**Don't** light anything from below or with coloured glows. There is one lamp, above.",
+      "**Don't** set high-contrast Bodoni below display size at high optical size. The hairlines disappear on 1x screens."
+    ]
+  }
+}

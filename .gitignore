@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+.vercel
+*.log
+# full-resolution painting sources kept locally, not deployed
+art-src/
+.impeccable/review/

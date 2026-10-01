@@ -1,0 +1,6 @@
+# Kept in the repo, not served
+.impeccable
+PRODUCT.md
+DESIGN.md
+README.md
+assets/**/*.json
