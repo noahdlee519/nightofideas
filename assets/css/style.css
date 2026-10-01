@@ -146,7 +146,8 @@ a { color: inherit; }
 
 h1, h2, h3, p { margin: 0; }
 
-i, em { font-style: italic; }
+/* No italics on this site: titles of works stand apart by colour, never by slant. */
+i, em { font-style: normal; }
 
 .visually-hidden {
   position: absolute !important;
@@ -160,12 +161,6 @@ i, em { font-style: italic; }
   border: 0;
   text-transform: none;
   letter-spacing: normal;
-}
-
-.caps {
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 0.86em;
 }
 
 .skip {
@@ -479,7 +474,6 @@ i, em { font-style: italic; }
   margin-top: clamp(22px, 3.2vh, 36px);
   max-width: 31em;
   font-family: var(--display);
-  font-style: italic;
   font-variation-settings: "opsz" 20;
   font-size: clamp(1rem, 1.3vw, 1.1875rem);
   line-height: 1.45;
@@ -869,7 +863,6 @@ i, em { font-style: italic; }
 }
 .cartel__no {
   font-family: var(--display);
-  font-style: italic;
   font-variation-settings: "opsz" 11;
   font-variant-numeric: lining-nums;
   color: var(--gilt-hi);
@@ -887,7 +880,6 @@ i, em { font-style: italic; }
 .cartel__title {
   margin-top: 12px;
   font-family: var(--display);
-  font-style: italic;
   font-weight: 500;
   font-variation-settings: "opsz" 22;
   font-size: clamp(1.75rem, 3vw, 2.6rem);
@@ -898,7 +890,6 @@ i, em { font-style: italic; }
 .cartel__sub {
   margin-top: 6px;
   font-family: var(--display);
-  font-style: italic;
   font-variation-settings: "opsz" 20;
   font-size: 1.0625rem;
   color: var(--claret-text-2);
@@ -988,6 +979,7 @@ i, em { font-style: italic; }
   transform-origin: left;
   transition: transform 0.3s var(--ease-out);
 }
+.catalogue__list i { color: var(--claret-text); transition: color 0.2s ease; }
 .catalogue__list button[aria-current="true"] { color: var(--claret-text); }
 .catalogue__list button[aria-current="true"]::before { transform: scaleX(1); }
 .catalogue__list button[aria-current="true"] i { color: var(--gilt-hi); }
@@ -1009,7 +1001,6 @@ i, em { font-style: italic; }
 }
 .hors-concours__term {
   font-family: var(--display);
-  font-style: italic;
   font-variation-settings: "opsz" 20;
   color: var(--gilt-hi);
 }
@@ -1072,7 +1063,6 @@ i, em { font-style: italic; }
   letter-spacing: -0.004em;
 }
 .article__no {
-  font-style: italic;
   font-weight: 400;
   font-variation-settings: "opsz" 11;
   color: var(--gilt);
@@ -1146,7 +1136,6 @@ i, em { font-style: italic; }
 .annunciation__aside {
   margin-top: 22px;
   font-family: var(--display);
-  font-style: italic;
   font-variation-settings: "opsz" 20;
   font-size: 1.0625rem;
   color: var(--umber-text-2);

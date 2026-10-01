@@ -111,7 +111,7 @@ components:
 
 Night of Ideas is presented as a juried Salon held after dark, and the site is its livret, the catalogue a visitor carried through the galleries. The ground is Henry Ossawa Tanner's nocturne blue-green, nearly black. Text is moonlight, never pure white. Everything precious is gilt, and gilt is a material, never a gradient: carved frames come from a photograph of a real Louis XIV-style frame, and buttons and the picture rail are honest flat gold with a dark rim. The page moves through rooms: the rooftop nocturne, the claret Salon wall where past talks hang frame to frame on cords, the règlement beside a lamp-lit plate, and the Annunciation's warm room for applying.
 
-Imagery is real and credited: public-domain paintings, real title slides from past talks, and a NASA lunar photograph for the moon that stands in for the O in the logo. Typography is a 19th-century Didone (Bodoni Moda) for display and an Old Standard "modern" text face for reading. Both are set the way a catalogue is set: SURNAME (Given) bylines, numbered entries, italic titles of works, run-in article numbers.
+Imagery is real and credited: public-domain paintings, real title slides from past talks, and a NASA lunar photograph for the moon that stands in for the O in the logo. Typography is a 19th-century Didone (Bodoni Moda) for display and an Old Standard "modern" text face for reading. Both are set the way a catalogue is set: given-name-first bylines, numbered entries, upright titles of works, run-in article numbers.
 
 Motion is lamplight and drift. The name surfaces from blur as the moon waxes into its O. Plates unveil top-down. The gallery wall moves on a spring, and its frames swing slightly on their cords. Every animation has a reduced-motion path that keeps all content visible.
 
@@ -152,23 +152,25 @@ The palette is a night gallery: one near-black blue-green ground, warm moonlit t
 ## Typography
 
 **Display Font:** Bodoni Moda (variable, opsz 6–96, wght 400–900), with Bodoni 72 and Didot as fallbacks
-**Body Font:** Old Standard TT (400, 400 italic, 700), with Georgia as fallback
+**Body Font:** Old Standard TT (400, 700), with Georgia as fallback
 
-**Character:** A Didot-era display face paired with a 19th-century "modern" book face, the type a Salon livret was actually printed in. Italics carry titles of works. Small capitals with tracking carry bylines and labels.
+**Character:** A Didot-era display face paired with a 19th-century "modern" book face, the type a Salon livret was actually printed in. Everything is set upright: the site uses no italics, so serif and slant never stack. Titles of works stand apart by colour or position. Tracked capitals carry labels.
 
 ### Hierarchy
 - **Lockup** (500, clamp(4.4rem, 12.2vw, 13.25rem), 0.8, opsz 60): the stacked NIGHT / (moon)F / IDEAS mark in the first viewport only. At this size the highest-contrast hairlines are the point.
 - **Display** (500, clamp(2.6rem, 5.4vw, 5.25rem), 0.98, opsz 30): section titles ("Past talks", "How a Night comes together", the apply question).
-- **Headline** (500 italic, clamp(1.75rem, 3vw, 2.6rem), 1.08, opsz 22): the title of a work on its cartel.
-- **Title** (500, clamp(1.5rem, 2.2vw, 2rem), 1.15, opsz 18): règlement article headings, with the italic gilt "Article I." run in on the same line.
+- **Headline** (500, clamp(1.75rem, 3vw, 2.6rem), 1.08, opsz 22): the title of a work on its cartel.
+- **Title** (500, clamp(1.5rem, 2.2vw, 2rem), 1.15, opsz 18): règlement article headings, with the gilt "Article I." run in on the same line.
 - **Body** (400, 1.125rem, 1.6): Old Standard with old-style figures. Measure runs 32–34em.
-- **Livret** (400 italic, clamp(1rem, 1.3vw, 1.1875rem), 1.45, opsz 20): the catalogue's title-page line, cartel subtitles and asides.
+- **Livret** (400, clamp(1rem, 1.3vw, 1.1875rem), 1.45, opsz 20): the catalogue's title-page line, cartel subtitles and asides.
 - **Label** (600, 0.78–0.875rem, letter-spacing 0.16–0.22em, uppercase, opsz 8): navigation, buttons, "View the slides", the catalogue title and colophon links.
 
 ### Named Rules
 **The Optical Size Rule.** The smaller the type, the lower the `opsz`. The lockup sits at 60, section titles at 30, cartel titles at 22, article heads at 18 and tracked capitals at 8. High-contrast settings below display size lose their hairlines on 1x screens.
 
-**The Livret Byline Rule.** People are named the way a Salon catalogue names its artists: catalogue number, SURNAME in small caps, given name in parentheses ("3. RODRIGUEZ (Cece)"), and the title of the work in italics.
+**The Byline Rule.** People are named plainly, given name first: catalogue number, then the name ("3. Cece Rodriguez"). Never surname first, never all-caps surnames. In the catalogue index the name sits in the muted tone and the title of the work in the bright one ("3. Cece Rodriguez — Being After God").
+
+**The Upright Rule.** No italics anywhere. `i` and `em` are reset to upright; a title inside running text is set plain.
 
 ## Layout
 
@@ -202,10 +204,10 @@ Square corners throughout. Buttons, the nav Apply, frames, slips and rules are a
 - Fixed masthead, 68px. It is transparent over the hero and turns solid Nocturne with a 1px gilt hairline once the page scrolls. On the left, the moon mark and the wordmark in tracked capitals. On the right, labels with Apply as a gilt-outlined plate. The moon mark's phase tracks scroll, new at the top of the page and full at the foot. Below 720px, only the mark, "Past talks" and Apply remain.
 
 ### The Hang (signature component)
-A full-bleed claret wall. A flat gilt picture rail runs along the top. Each work hangs from a hook on two cords, in a carved gilt or ebonised frame with a linen or gilt slip, and its title slide sits under glass. The active work is centred, at full scale, and lit by a lamp pool. Neighbours scale to 0.8 and dim. The wall drags with spring physics and pointer flicks, and the frames swing up to 2.6° on their cords, then settle. Controls: drag, round gilt step buttons, ArrowLeft/Right, and a numbered catalogue index whose entries drive the wall. Clicking a side work brings it forward; clicking the lit work opens its slides. One shared cartel beneath shows the byline, italic title, subtitle, a one-to-two-sentence description and "View the slides". It cross-fades with a 4px blur. An aria-live line announces each change.
+A full-bleed claret wall. A flat gilt picture rail runs along the top. Each work hangs from a hook on two cords, in a carved gilt or ebonised frame with a linen or gilt slip, and its title slide sits under glass. The active work is centred, at full scale, and lit by a lamp pool. Neighbours scale to 0.8 and dim. The wall drags with spring physics and pointer flicks, and the frames swing up to 2.6° on their cords, then settle. Controls: drag, round gilt step buttons, ArrowLeft/Right, and a numbered catalogue index whose entries drive the wall. Clicking a side work brings it forward; clicking the lit work opens its slides. One shared cartel beneath shows the byline, title, subtitle, a one-to-two-sentence description and "View the slides". It cross-fades with a 4px blur. An aria-live line announces each change.
 
 ### Plates and painting credits
-Paintings that are not full-bleed hang as plates in the same carved frame, with a wider molding, and unveil top-down on scroll. Every painting carries a credit in small Bodoni: artist, *title* in italics, date.
+Paintings that are not full-bleed hang as plates in the same carved frame, with a wider molding, and unveil top-down on scroll. Every painting carries a credit in small Bodoni: artist, title (upright, one step brighter), date.
 
 ## Do's and Don'ts
 
@@ -213,10 +215,11 @@ Paintings that are not full-bleed hang as plates in the same carved frame, with 
 - **Do** keep text on night in the moonlight family (#ece6d6 / #bfb8a6 / #948e7f). Never use pure white.
 - **Do** use real, credited imagery: public-domain paintings, speakers' own title slides, photographic gilt and the lunar photograph.
 - **Do** lower `opsz` as type gets smaller (lockup 60 → titles 30 → cartel 22 → article heads 18 → labels 8).
-- **Do** set people and works in catalogue form: "No." numbering, SURNAME (Given), italic titles.
+- **Do** set people and works in catalogue form: "No." numbering, then Given Surname, with titles upright.
 - **Do** give every motion a reduced-motion path that leaves all content visible.
 
 ### Don't:
+- **Don't** set italics, or put a surname before a given name.
 - **Don't** fake gold with multi-stop gradients, or textures with repeating stripe gradients.
 - **Don't** stack small labels or eyebrows above headings. Numbers run in on the heading or byline line.
 - **Don't** round corners on buttons, frames or panels.

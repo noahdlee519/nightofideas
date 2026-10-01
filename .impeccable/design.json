@@ -288,7 +288,7 @@
       },
       "headline": {
         "displayName": "Headline",
-        "purpose": "Italic title of a work on its cartel."
+        "purpose": "Upright title of a work on its cartel."
       },
       "title": {
         "displayName": "Title",
@@ -300,7 +300,7 @@
       },
       "livret": {
         "displayName": "Livret",
-        "purpose": "Italic catalogue lines, subtitles and asides."
+        "purpose": "Catalogue lines, subtitles and asides."
       },
       "label": {
         "displayName": "Label",
@@ -390,9 +390,9 @@
       "name": "Cartel",
       "kind": "card",
       "refersTo": "cartel",
-      "description": "The label of a hung work: catalogue byline, italic title, subtitle, description, slides link. Sits on the claret wall.",
-      "html": "<article class=\"ds-cartel\"><p class=\"ds-cartel__name\"><i>3.</i> <span>RODRIGUEZ</span> (Cece)</p><h3 class=\"ds-cartel__title\">Being After God</h3><p class=\"ds-cartel__sub\">The Nihilism Lecture</p><p class=\"ds-cartel__desc\">Heidegger’s history of Being read as a history of nihilism.</p><a class=\"ds-cartel__link\" href=\"#\">View the slides</a></article>",
-      "css": ".ds-cartel{text-align:center;max-width:40rem;padding:40px 24px;background:#3e0f15;color:#f1e2d2}.ds-cartel__name{margin:0;font:500 .95rem/1.6 \"Bodoni Moda\", \"Bodoni 72\", Didot, serif;font-variation-settings:\"opsz\" 8;letter-spacing:.06em}.ds-cartel__name i{color:#f0d99a}.ds-cartel__name span{font-size:.86em;letter-spacing:.1em}.ds-cartel__title{margin:12px 0 0;font:italic 500 2.4rem/1.08 \"Bodoni Moda\", \"Bodoni 72\", Didot, serif;font-variation-settings:\"opsz\" 22}.ds-cartel__sub{margin:6px 0 0;font:italic 400 1.0625rem/1.5 \"Bodoni Moda\", \"Bodoni 72\", Didot, serif;font-variation-settings:\"opsz\" 20;color:#d8c0ae}.ds-cartel__desc{margin:14px auto 0;max-width:34em;font:400 1.0625rem/1.6 \"Old Standard TT\", Georgia, serif;color:#d8c0ae}.ds-cartel__link{display:inline-block;margin-top:18px;font:600 .8125rem/1.6 \"Bodoni Moda\", \"Bodoni 72\", Didot, serif;font-variation-settings:\"opsz\" 8;letter-spacing:.18em;text-transform:uppercase;color:#f0d99a;text-decoration:underline;text-decoration-color:rgba(240,217,154,.5);text-underline-offset:.6em}.ds-cartel__link:hover{text-decoration-color:#f0d99a}.ds-cartel__link:focus-visible{outline:2px solid #f0d99a;outline-offset:4px}"
+      "description": "The label of a hung work: catalogue byline, title, subtitle, description, slides link. Sits on the claret wall.",
+      "html": "<article class=\"ds-cartel\"><p class=\"ds-cartel__name\"><span class=\"ds-cartel__no\">3.</span> Cece Rodriguez</p><h3 class=\"ds-cartel__title\">Being After God</h3><p class=\"ds-cartel__sub\">The Nihilism Lecture</p><p class=\"ds-cartel__desc\">Heidegger’s history of Being read as a history of nihilism.</p><a class=\"ds-cartel__link\" href=\"#\">View the slides</a></article>",
+      "css": ".ds-cartel{text-align:center;max-width:40rem;padding:40px 24px;background:#3e0f15;color:#f1e2d2}.ds-cartel__name{margin:0;font:500 .95rem/1.6 \"Bodoni Moda\", \"Bodoni 72\", Didot, serif;font-variation-settings:\"opsz\" 8;letter-spacing:.06em}.ds-cartel__no{color:#f0d99a}.ds-cartel__title{margin:12px 0 0;font:500 2.4rem/1.08 \"Bodoni Moda\", \"Bodoni 72\", Didot, serif;font-variation-settings:\"opsz\" 22}.ds-cartel__sub{margin:6px 0 0;font:400 1.0625rem/1.5 \"Bodoni Moda\", \"Bodoni 72\", Didot, serif;font-variation-settings:\"opsz\" 20;color:#d8c0ae}.ds-cartel__desc{margin:14px auto 0;max-width:34em;font:400 1.0625rem/1.6 \"Old Standard TT\", Georgia, serif;color:#d8c0ae}.ds-cartel__link{display:inline-block;margin-top:18px;font:600 .8125rem/1.6 \"Bodoni Moda\", \"Bodoni 72\", Didot, serif;font-variation-settings:\"opsz\" 8;letter-spacing:.18em;text-transform:uppercase;color:#f0d99a;text-decoration:underline;text-decoration-color:rgba(240,217,154,.5);text-underline-offset:.6em}.ds-cartel__link:hover{text-decoration-color:#f0d99a}.ds-cartel__link:focus-visible{outline:2px solid #f0d99a;outline-offset:4px}"
     },
     {
       "name": "Gallery Step",
@@ -413,7 +413,7 @@
   ],
   "narrative": {
     "northStar": "The Salon at Night",
-    "overview": "Night of Ideas is presented as a juried Salon held after dark, and the site is its livret, the catalogue a visitor carried through the galleries. The ground is Henry Ossawa Tanner's nocturne blue-green, nearly black. Text is moonlight, never pure white. Everything precious is gilt, and gilt is a material, never a gradient: carved frames come from a photograph of a real Louis XIV-style frame, and buttons and the picture rail are honest flat gold with a dark rim. The page moves through rooms: the rooftop nocturne, the claret Salon wall where past talks hang frame to frame on cords, the règlement beside a lamp-lit plate, and the Annunciation's warm room for applying.\n\nImagery is real and credited: public-domain paintings, real title slides from past talks, and a NASA lunar photograph for the moon that stands in for the O in the logo. Typography is a 19th-century Didone (Bodoni Moda) for display and an Old Standard \"modern\" text face for reading. Both are set the way a catalogue is set: SURNAME (Given) bylines, numbered entries, italic titles of works, run-in article numbers.\n\nMotion is lamplight and drift. The name surfaces from blur as the moon waxes into its O. Plates unveil top-down. The gallery wall moves on a spring, and its frames swing slightly on their cords. Every animation has a reduced-motion path that keeps all content visible.",
+    "overview": "Night of Ideas is presented as a juried Salon held after dark, and the site is its livret, the catalogue a visitor carried through the galleries. The ground is Henry Ossawa Tanner's nocturne blue-green, nearly black. Text is moonlight, never pure white. Everything precious is gilt, and gilt is a material, never a gradient: carved frames come from a photograph of a real Louis XIV-style frame, and buttons and the picture rail are honest flat gold with a dark rim. The page moves through rooms: the rooftop nocturne, the claret Salon wall where past talks hang frame to frame on cords, the règlement beside a lamp-lit plate, and the Annunciation's warm room for applying.\n\nImagery is real and credited: public-domain paintings, real title slides from past talks, and a NASA lunar photograph for the moon that stands in for the O in the logo. Typography is a 19th-century Didone (Bodoni Moda) for display and an Old Standard \"modern\" text face for reading. Both are set the way a catalogue is set: given-name-first bylines, numbered entries, upright titles of works, run-in article numbers.\n\nMotion is lamplight and drift. The name surfaces from blur as the moon waxes into its O. Plates unveil top-down. The gallery wall moves on a spring, and its frames swing slightly on their cords. Every animation has a reduced-motion path that keeps all content visible.",
     "keyCharacteristics": [
       "Dark nocturne ground (#0a1215) with moonlit ivory text and gilt as the only accent",
       "Photographic materials (carved gilt frames, the lunar photograph, the paintings); no faked bevels or stripe textures",
@@ -439,7 +439,7 @@
       },
       {
         "name": "The Livret Byline Rule",
-        "body": "People are named the way a Salon catalogue names its artists: catalogue number, SURNAME in small caps, given name in parentheses (\"3. RODRIGUEZ (Cece)\"), and the title of the work in italics.",
+        "body": "People are named plainly, given name first: catalogue number, then the name (\"3. Cece Rodriguez\"). Never surname first, never all-caps surnames. No italics anywhere; titles of works stand apart by colour.",
         "section": "typography"
       },
       {
@@ -452,7 +452,7 @@
       "**Do** keep text on night in the moonlight family (#ece6d6 / #bfb8a6 / #948e7f). Never use pure white.",
       "**Do** use real, credited imagery: public-domain paintings, speakers' own title slides, photographic gilt and the lunar photograph.",
       "**Do** lower `opsz` as type gets smaller (lockup 60 → titles 30 → cartel 22 → article heads 18 → labels 8).",
-      "**Do** set people and works in catalogue form: \"No.\" numbering, SURNAME (Given), italic titles.",
+      "**Do** set people and works in catalogue form: \"No.\" numbering, then Given Surname, with titles upright.",
       "**Do** give every motion a reduced-motion path that leaves all content visible."
     ],
     "donts": [

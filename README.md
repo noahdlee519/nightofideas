@@ -29,7 +29,7 @@ python3 -m http.server 8000
 A talk appears in three places in `index.html`, and all three are marked in the "Past talks" section:
 
 1. **The frame on the wall.** Copy one `<li class="work" data-work>…</li>` block inside `<ul class="hang__wall">`. Change the slides link, the `aria-label`, the image paths and the `alt` text. For the frame, use `frame--gilt`, `frame--ebony` or `frame--wide`. Mixing them is what makes it look like a Salon hang.
-2. **The cartel (label).** Copy one `<article class="cartel" data-cartel>` block inside `<div class="cartels">`. Update the number, `SURNAME (Given name)`, the title, the one-to-two sentence description and the slides link.
+2. **The cartel (label).** Copy one `<article class="cartel" data-cartel>` block inside `<div class="cartels">`. Update the number, the name (given name first, e.g. `Cece Rodriguez`), the title, the one-to-two sentence description and the slides link.
 3. **The catalogue entry.** Copy one `<li>` in `<ol class="catalogue__list">` and set `data-goto` to the talk's position, counting from 0.
 
 Keep the three lists in the same order.
