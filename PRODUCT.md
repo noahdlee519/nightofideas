@@ -56,7 +56,7 @@ Past talks with slide decks (real; titles and speakers from the decks):
 6. "Poetry and Recorded Music" by Ben Miele (preview: slide 65, "Photography Arrives and Can Represent Reality Far Better"). https://drive.google.com/file/d/1-dcGc1nfGQzXbfjJJ_neOKI1l-GnbH-O/view?usp=sharing
 
 - Agnes Callard has spoken at a past Night (faculty speaker).
-- Contact: Shawn Quek, quek@uchicago.edu (the footer Contact button opens an email to him).
+- Contacts: Shawn Quek, quek@uchicago.edu, and Tessa Bracken, tebracken@uchicago.edu (the footer Contact button opens one email addressed to both).
 - Public-domain paintings in `assets/art/` (Tanner, Wright of Derby, Friedrich) sourced from Wikimedia Commons.
 - Absent, do not fabricate: quotes or testimonials, attendance figures beyond "sixty or more", dates of past Nights, venues, other organizer names, social handles.
 
