@@ -53,10 +53,12 @@ Past talks with slide decks (real; titles and speakers from the decks):
 3. "Relational Space(s): Thinking with Bubbles" by Violeta Lopez Molina (Sloterdijk). https://docs.google.com/presentation/d/1Iz9mKYSu8uoheLjNLzFzfTCSYpkyISvw/edit?usp=sharing&ouid=102077671114503182265&rtpof=true&sd=true
 4. "Frats & Butlerian Brotherhood" by Shawn Quek (masculine performativity). https://docs.google.com/presentation/d/1JxJyHOG362gN1ASZHkTMVCdQNswj5mI6/edit?usp=sharing&ouid=102077671114503182265&rtpof=true&sd=true
 5. "Minecraft Democracy" by Noah Lee ("I started the largest direct democracy in Minecraft history"). https://docs.google.com/presentation/d/1rr6byTItzAnvl8Jy5PTz5A5KCxLAaAU_WzdNoThCmtY/edit?usp=sharing
+6. "Poetry and Recorded Music" by Ben Miele (preview: slide 65, "Photography Arrives and Can Represent Reality Far Better"). https://drive.google.com/file/d/1-dcGc1nfGQzXbfjJJ_neOKI1l-GnbH-O/view?usp=sharing
 
 - Agnes Callard has spoken at a past Night (faculty speaker).
+- Contact: Shawn Quek, quek@uchicago.edu (the footer Contact button opens an email to him).
 - Public-domain paintings in `assets/art/` (Tanner, Wright of Derby, Friedrich) sourced from Wikimedia Commons.
-- Absent, do not fabricate: quotes or testimonials, attendance figures beyond "sixty or more", dates of past Nights, venues, organizer names, social handles, contact email.
+- Absent, do not fabricate: quotes or testimonials, attendance figures beyond "sixty or more", dates of past Nights, venues, other organizer names, social handles.
 
 ## Product Principles
 

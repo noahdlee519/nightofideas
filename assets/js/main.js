@@ -26,24 +26,27 @@
       " A" + rx + " " + r + " 0 0 " + (p < 0.75 ? 0 : 1) + " " + top + "Z";
   }
 
-  /* The name surfaces as the moon waxes into its O. */
-  var HERO_PHASE = 0.34;
+  /* The name surfaces as the moon waxes full into its O.
+     The lit shape is drawn at r = 100, just past the disc's r = 96 clip, so the
+     soft mask blurs only the terminator and the full moon keeps a crisp rim. */
+  var HERO_PHASE = 0.5;
+  var HERO_R = 100;
   var heroMoon = document.querySelector("[data-hero-moon]");
   if (heroMoon) {
     if (motionOK()) {
-      heroMoon.setAttribute("d", moonPath(0.03, 100, 100, 96));
+      heroMoon.setAttribute("d", moonPath(0.03, 100, 100, HERO_R));
       var start = null;
       var delay = 350;
-      var duration = 2300;
+      var duration = 2600;
       var wax = function (now) {
         if (start === null) start = now;
         var t = clamp((now - start - delay) / duration, 0, 1);
-        heroMoon.setAttribute("d", moonPath(0.03 + (HERO_PHASE - 0.03) * easeOutCubic(t), 100, 100, 96));
+        heroMoon.setAttribute("d", moonPath(0.03 + (HERO_PHASE - 0.03) * easeOutCubic(t), 100, 100, HERO_R));
         if (t < 1) requestAnimationFrame(wax);
       };
       requestAnimationFrame(wax);
     } else {
-      heroMoon.setAttribute("d", moonPath(HERO_PHASE, 100, 100, 96));
+      heroMoon.setAttribute("d", moonPath(HERO_PHASE, 100, 100, HERO_R));
     }
   }
 
@@ -90,6 +93,13 @@
     revealables.forEach(function (el) { el.classList.add("is-in"); });
   }
 
+  /* The Wright plate downloads with the page (it is not lazy); decode it once
+     the page has loaded so its unveiling never waits on pixels. */
+  window.addEventListener("load", function () {
+    var plate = document.querySelector(".reglement__plate img");
+    if (plate && plate.decode) plate.decode().catch(function () {});
+  });
+
   /* ------------------------------------------------------------------
      The hang: a wall of framed works on cords. Drag it, flick it,
      step it, or pick from the catalogue. The lit work is centred; the
@@ -127,6 +137,7 @@
     var raf = 0, last = 0;
     var drag = null;
     var suppressClick = false;
+    var wheeling = false, wheelTimer = 0, wheelLastT = 0, wheelFrom = 0, wheelSum = 0;
 
     function measure() {
       W = works[0].offsetWidth;
@@ -164,7 +175,7 @@
     function tick(now) {
       var dt = clamp((now - last) / 1000, 0.001, 0.034);
       last = now;
-      if (!drag) {
+      if (!drag && !wheeling) {
         var k = 150;
         var c = 2 * Math.sqrt(k) * 0.9;
         v += (k * (target - x) - c * v) * dt;
@@ -175,7 +186,7 @@
       swayV += (80 * (swayTarget - sway) - 6.5 * swayV) * dt;
       sway += swayV * dt;
       render();
-      var settled = !drag && Math.abs(target - x) < 0.25 && Math.abs(v) < 4 &&
+      var settled = !drag && !wheeling && Math.abs(target - x) < 0.25 && Math.abs(v) < 4 &&
         Math.abs(sway) < 0.015 && Math.abs(swayV) < 0.04;
       if (settled) {
         x = target; v = 0; sway = 0; swayV = 0;
@@ -309,6 +320,50 @@
     viewport.addEventListener("pointerup", endDrag);
     viewport.addEventListener("pointercancel", endDrag);
     viewport.addEventListener("dragstart", function (e) { e.preventDefault(); });
+
+    /* Trackpad swipes (and shift + mouse wheel) move the wall directly;
+       it settles on the nearest work once the gesture stops. */
+    viewport.addEventListener("wheel", function (e) {
+      var dx = e.deltaX, dy = e.deltaY;
+      if (e.shiftKey && Math.abs(dx) < Math.abs(dy)) { dx = dy; dy = 0; }
+      if (Math.abs(dx) <= Math.abs(dy)) return; // a vertical scroll belongs to the page
+      e.preventDefault();
+      if (drag) return;
+      if (e.deltaMode === 1) dx *= 18;
+      else if (e.deltaMode === 2) dx *= viewport.clientWidth;
+      if (!wheeling) { wheelFrom = index; wheelSum = 0; }
+      wheelSum += dx;
+      var min = -(n - 1) * step;
+      var nx = x - dx;
+      if (nx > 0 || nx < min) nx = x - dx * 0.3; // resistance past either end
+      nx = clamp(nx, min - step * 0.25, step * 0.25);
+      var dtm = wheelLastT ? clamp(e.timeStamp - wheelLastT, 8, 60) : 16;
+      wheelLastT = e.timeStamp;
+      var prevX = x;
+      x = nx;
+      wheeling = true;
+      if (motionOK()) {
+        v = clamp(((x - prevX) / dtm) * 1000, -2600, 2600);
+        kick();
+      } else {
+        v = 0;
+        render();
+      }
+      clearTimeout(wheelTimer);
+      wheelTimer = setTimeout(endWheel, 150);
+    }, { passive: false });
+
+    function endWheel() {
+      wheeling = false;
+      wheelLastT = 0;
+      /* Judge the gesture by how far it travelled from the work it began on,
+         so quick repeated swipes each advance one work. */
+      var dist = Math.abs(wheelSum);
+      var next = wheelFrom;
+      if (dist > step * 0.18) next += (wheelSum > 0 ? 1 : -1) * Math.max(1, Math.round(dist / step));
+      goTo(next, true);
+      kick();
+    }
 
     /* A click on a side work brings it forward; a click on the lit work opens its slides. */
     frames.forEach(function (frame, i) {
