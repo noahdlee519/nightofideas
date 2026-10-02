@@ -38,7 +38,12 @@ Keep the three lists in the same order.
 
 ## Update the date
 
-When a date and place are set for the quarter's Night, put them in the apply section (`<section class="annunciation">`). Replace the sentence that says the date will be posted here.
+Each quarter's date and time appear in two places in `index.html`:
+
+1. **Under the title in the first screen:** `<p class="when">`. Change the visible text and the `datetime` attribute (for example `datetime="2026-10-23T19:00"`).
+2. **In the apply section:** the sentence in `<p class="annunciation__aside">`.
+
+When a venue is set, add it to both.
 
 ## Deploy on Vercel
 

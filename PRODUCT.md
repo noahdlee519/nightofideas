@@ -31,7 +31,7 @@ Not a lecture series and not an open mic: every talk is an original idea from a 
 - Application form (Google Form): https://forms.gle/MM1W7VJADfQCKHtf8
 - Applications are open to University students and professors from all backgrounds.
 - Cadence: one Night per quarter, six selected student talks, workshop period of several weeks, Night held later in the quarter.
-- No date or venue is set for the current quarter yet; do not show one.
+- Fall 2026 Night: Friday, October 23, 2026, at 7 pm. No venue announced yet; do not show one. The date sits under the hero lockup and in the apply room's aside; update both each quarter.
 
 ## Capabilities and Constraints
 
@@ -51,12 +51,12 @@ Past talks with slide decks (real; titles and speakers from the decks):
 1. "Meditations on Meditations on Moloch: Or, How I Learned to Stop Worrying and Love the Madness" by Reilly Pryma. https://docs.google.com/presentation/d/1SS0yWVlosdCCcnpw1D09NTxr96qNDYa3H1WAOxFqE1Y/edit?usp=sharing
 2. "Being After God: The Nihilism Lecture" by Cece Rodriguez (Heidegger's history of Being). https://docs.google.com/presentation/d/13Kh0zhUCs1kIHJUQSlHZTBn3w5zzzy_K2cqirZG8eKI/edit?usp=sharing
 3. "Relational Space(s): Thinking with Bubbles" by Violeta Lopez Molina (Sloterdijk). https://docs.google.com/presentation/d/1Iz9mKYSu8uoheLjNLzFzfTCSYpkyISvw/edit?usp=sharing&ouid=102077671114503182265&rtpof=true&sd=true
-4. "Frats & Butlerian Brotherhood" by Shawn Quek (masculine performativity). https://docs.google.com/presentation/d/1JxJyHOG362gN1ASZHkTMVCdQNswj5mI6/edit?usp=sharing&ouid=102077671114503182265&rtpof=true&sd=true
+4. "Frats & Butlerian Brotherhood" by Shawn Shaw Quek (masculine performativity). https://docs.google.com/presentation/d/1JxJyHOG362gN1ASZHkTMVCdQNswj5mI6/edit?usp=sharing&ouid=102077671114503182265&rtpof=true&sd=true
 5. "Minecraft Democracy" by Noah Lee ("I started the largest direct democracy in Minecraft history"). https://docs.google.com/presentation/d/1rr6byTItzAnvl8Jy5PTz5A5KCxLAaAU_WzdNoThCmtY/edit?usp=sharing
 6. "Poetry and Recorded Music" by Ben Miele (preview: slide 65, "Photography Arrives and Can Represent Reality Far Better"). https://drive.google.com/file/d/1-dcGc1nfGQzXbfjJJ_neOKI1l-GnbH-O/view?usp=sharing
 
 - Agnes Callard has spoken at a past Night (faculty speaker).
-- Contacts: Shawn Quek, quek@uchicago.edu, and Tessa Bracken, tebracken@uchicago.edu (the footer Contact button opens one email addressed to both).
+- Contacts: Shawn Shaw Quek, quek@uchicago.edu, and Tessa Bracken, tebracken@uchicago.edu (the footer Contact button opens one email addressed to both).
 - Public-domain paintings in `assets/art/` (Tanner, Wright of Derby, Friedrich) sourced from Wikimedia Commons.
 - Absent, do not fabricate: quotes or testimonials, attendance figures beyond "sixty or more", dates of past Nights, venues, other organizer names, social handles.
 
@@ -66,7 +66,7 @@ Past talks with slide decks (real; titles and speakers from the decks):
 2. Apply is the one action that matters; attending is the second.
 3. Show real past work rather than describing what a Night is like.
 4. Open to everyone: no department, year, or philosophy background is required.
-5. Quarter-specific facts live in one place (the apply section) and are edited each quarter. The organizer chose to say that applications are open for the current quarter, with no date until one is set.
+5. Quarter-specific facts live in one place (the apply section) and are edited each quarter. The organizer chose to say that applications are open for the current quarter, and to show the Night's date and time prominently once set.
 
 ## Accessibility & Inclusion
 
