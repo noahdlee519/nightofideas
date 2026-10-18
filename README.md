@@ -40,10 +40,10 @@ Keep the three lists in the same order.
 
 Each quarter's date and time appear in two places in `index.html`:
 
-1. **Under the title in the first screen:** `<p class="when">`. Change the visible text and the `datetime` attribute (for example `datetime="2026-10-23T19:00"`).
+1. **Under the title in the first screen:** `<p class="when">`. The date sits in `<time class="when__date">` (change its text and its `datetime` attribute, for example `datetime="2026-10-23T19:30"`), and the time and room sit in `<span class="when__detail">` below it.
 2. **In the apply section:** the sentence in `<p class="annunciation__aside">`.
 
-When a venue is set, add it to both.
+Keep the date, time and room the same in both places.
 
 ## Deploy on Vercel
 

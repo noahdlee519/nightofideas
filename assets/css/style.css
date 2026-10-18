@@ -482,8 +482,18 @@ i, em { font-style: normal; }
   color: var(--moon);
   text-shadow: 0 2px 24px rgba(5, 10, 12, 0.5);
 }
+.when__date { display: block; }
+.when__detail {
+  display: block;
+  margin-top: 0.45em;
+  font-variation-settings: "opsz" 20;
+  font-size: clamp(1.125rem, 1.5vw, 1.45rem);
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+  color: var(--moon);
+}
 .when__sep {
-  margin: 0 0.45em;
+  margin: 0 0.6em;
   color: var(--gilt);
 }
 

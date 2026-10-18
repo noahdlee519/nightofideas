@@ -31,7 +31,7 @@ Not a lecture series and not an open mic: every talk is an original idea from a 
 - Application form (Google Form): https://forms.gle/MM1W7VJADfQCKHtf8
 - Applications are open to University students and professors from all backgrounds.
 - Cadence: one Night per quarter, six selected student talks, workshop period of several weeks, Night held later in the quarter.
-- Fall 2026 Night: Friday, October 23, 2026, at 7 pm. No venue announced yet; do not show one. The date sits under the hero lockup and in the apply room's aside; update both each quarter.
+- Fall 2026 Night: Friday, October 23, 2026, 7:30 to 9 pm, in Stuart Hall 105. The date sits under the hero lockup and in the apply room's aside; update both each quarter.
 
 ## Capabilities and Constraints
 
